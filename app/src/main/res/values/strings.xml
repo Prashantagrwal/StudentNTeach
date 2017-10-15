@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Study N Teach</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="create">Create</string>
+    <string name="search">Search Course</string>
+    <string name="account">My Account</string>
+    <string name="new_courses">New Courses</string>
+    <string name="like">Like</string>
+    <string name="liked">Liked</string>
+    <string name="share">Share</string>
+    <string name="cut">Not Liked</string>
+</resources>

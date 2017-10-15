@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="25dp"
+       android:textSize="22sp"
+       android:gravity="center"
+       android:text="Follow 5 courses"
+       android:id="@+id/tt"
+       />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tt"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:layout_above="@+id/b_create">
+
+        <android.support.v7.widget.RecyclerView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycle"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+
+
+
+    <Button
+        android:id="@+id/b_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE TOPIC"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
